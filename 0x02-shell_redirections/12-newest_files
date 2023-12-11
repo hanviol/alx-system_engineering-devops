@@ -1,2 +1,2 @@
 #!/bin/bash
-find -type f -print0 |xargs -0r  ls -lt | head	
+find -type f | ls -t1r | head
